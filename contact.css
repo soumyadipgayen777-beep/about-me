@@ -1,0 +1,47 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  border: solid 3px pink;
+  padding: 3px 3px 3px 3px;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  border: solid 2px orange;
+  background-color: orange;
+  flex-grow: 1;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+.contact{
+  text-decoration: underline 2px blue;
+}
+body{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer{
+  background-color: #f2f7fa;
+  text-align: right;
+}
+main{
+ display: flex;
+ flex-direction: column;
+ background-color: #f2f7fa;
+ min-height: 90vh;
+ flex: 1;
+}
+.mail{
+  margin: 8px 0 0 16px;
+}
+.address{
+  padding: 6px 6px 6px 6px;
+  margin: 0 0 0 20px;
+  font-size: 20px;
+}
+p{
+  font-size: 20px;
+}

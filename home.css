@@ -1,0 +1,68 @@
+body{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  border: solid 2px pink;
+  padding: 3px 3px 3px 3px;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  border: solid 2px orange;
+  background-color: orange;
+  flex-grow: 1;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+.home{
+  text-decoration: underline 2px blue;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 150px 150px 150px 150px;
+}
+figure{
+  display: flex;
+  justify-content: center;
+}
+section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+main{
+  display: flex;
+  justify-content: center;
+  background-color: #f2f7fa;
+  flex-direction: column;
+  min-height: 90vh;
+}
+.about{
+  border: solid 2px black;
+  border-radius: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  text-align: left;
+}
+.hobby{
+  margin: 20px 15px 20px 15px;
+}
+.list{
+  text-align: left;
+}
+li{
+  margin: 4px 4px 4px 4px;
+  padding: 4px 4px 4px 4px;
+}
+footer{
+  background-color: #f2f7fa;
+  text-align: right;
+}
+
